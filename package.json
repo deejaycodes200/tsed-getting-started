@@ -4,7 +4,7 @@
   "description": "Here an example to configure your server and how to create your first controller.",
   "main": "src/index.js",
   "scripts": {
-    "clean": "rimraf '{src,test}/**/*.{js,js.map}'",
+    "clean": "rimraf '{src,test}/**/*.{js,js.
     "build": "yarn tsc",
     "test": "yarn clean && yarn test:lint && yarn test:coverage",
     "test:unit": "cross-env NODE_ENV=test mocha",
